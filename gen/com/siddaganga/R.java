@@ -1101,7 +1101,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f060016;
         public static final int action_menu_presenter=0x7f060017;
         public static final int action_mode_close_button=0x7f060024;
-        public static final int action_settings=0x7f060051;
+        public static final int action_settings=0x7f060052;
         public static final int activity_chooser_view_content=0x7f060025;
         public static final int always=0x7f06000b;
         public static final int beginning=0x7f060011;
@@ -1112,9 +1112,10 @@ containing a value of this type.
         public static final int btnSearch=0x7f06003e;
         public static final int btnSend=0x7f060048;
         public static final int buttonFwd=0x7f06004a;
-        public static final int buttonLeft=0x7f06004d;
-        public static final int buttonRev=0x7f06004e;
-        public static final int buttonRight=0x7f06004f;
+        public static final int buttonLeft=0x7f06004e;
+        public static final int buttonRev=0x7f06004f;
+        public static final int buttonRight=0x7f060050;
+        public static final int buttonStop=0x7f06004b;
         public static final int checkbox=0x7f06002d;
         public static final int chkReceiveText=0x7f060043;
         public static final int chkScroll=0x7f060042;
@@ -1135,7 +1136,7 @@ containing a value of this type.
         public static final int image=0x7f060027;
         public static final int listMode=0x7f060001;
         public static final int list_item=0x7f060029;
-        public static final int lstContent=0x7f060050;
+        public static final int lstContent=0x7f060051;
         public static final int lstDevices=0x7f06003d;
         public static final int middle=0x7f060012;
         public static final int never=0x7f060009;
@@ -1162,8 +1163,8 @@ containing a value of this type.
         public static final int submit_area=0x7f060039;
         public static final int tabMode=0x7f060002;
         public static final int tableRow1=0x7f060049;
-        public static final int tableRow2=0x7f06004c;
-        public static final int tableRow4=0x7f06004b;
+        public static final int tableRow2=0x7f06004d;
+        public static final int tableRow4=0x7f06004c;
         public static final int title=0x7f06002b;
         public static final int top_action_bar=0x7f060020;
         public static final int txtListHeading=0x7f06003c;
@@ -1280,11 +1281,16 @@ containing a value of this type.
         public static final int app_name=0x7f0b000d;
         public static final int btnClear=0x7f0b0028;
         public static final int btnClearInput=0x7f0b0023;
+        /**  connect/homescreen activity 
+         */
+        public static final int btnConnect=0x7f0b002c;
         public static final int btnControl=0x7f0b002a;
         /**  main activity 
          */
         public static final int btnDisconnect=0x7f0b0022;
+        public static final int btnSearchDesc=0x7f0b002d;
         public static final int btnSend=0x7f0b0029;
+        public static final int btnStop=0x7f0b002b;
         public static final int buttonFwd=0x7f0b001e;
         public static final int buttonLeft=0x7f0b0020;
         public static final int buttonRev=0x7f0b0021;
@@ -1310,6 +1316,7 @@ containing a value of this type.
         public static final int title_activity_main=0x7f0b0012;
         public static final int txtEditHint=0x7f0b0027;
         public static final int txtHint=0x7f0b0026;
+        public static final int txtPairedDevices=0x7f0b002e;
     }
     public static final class style {
         /** 

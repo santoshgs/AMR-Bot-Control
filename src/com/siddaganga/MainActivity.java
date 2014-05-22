@@ -56,7 +56,7 @@ public class MainActivity extends Activity {
 	private Button mBtnLeft;
 	private Button mBtnFwd;
 	private Button mBtnRev;
-	
+	private Button mBtnStop;	
 
 	private boolean mIsBluetoothConnected = false;
 
@@ -91,13 +91,15 @@ public class MainActivity extends Activity {
 		mBtnLeft = (Button) findViewById(R.id.buttonLeft);
 		mBtnRev = (Button) findViewById(R.id.buttonRev);
 		mBtnRight = (Button) findViewById(R.id.buttonRight);
-	
+		mBtnStop = (Button) findViewById(R.id.buttonStop);
+		
 		mTxtReceive.setMovementMethod(new ScrollingMovementMethod());
 
 		final int fwdByte = 102; // ASCII value for "f" forward
 		final int revByte = 98; // ASCII value for "b" backward
 		final int leftByte = 108;
 		final int rightByte = 114;
+		final int stopByte = 50;
 		
 		mBtnDisconnect.setOnClickListener(new OnClickListener() {
 
@@ -165,6 +167,17 @@ public class MainActivity extends Activity {
 				}
 			}
 		});
+		
+		mBtnStop.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				try {
+					mBTSocket.getOutputStream().write(stopByte);
+				} catch(IOException e){
+					e.printStackTrace();
+				}
+			}
+		});		
 		
 		mBtnClear.setOnClickListener(new OnClickListener() {
 
