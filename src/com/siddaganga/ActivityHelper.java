@@ -1,7 +1,7 @@
 /*
- * Released under MIT License http://opensource.org/licenses/MIT
- * Copyright (c) 2013 Plasty Grove
- * Refer to file LICENSE or URL above for full text 
+ * Released under GPL License
+ * Copyright (c) 2014 Santosh G.S.
+ * Refer to file LICENSE for full text 
  */
 
 package com.siddaganga;
