@@ -17,6 +17,8 @@
         android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        
+		<!-- Control screen -->
         <activity
             android:name="com.siddaganga.MainActivity"
             android:configChanges="orientation"
@@ -26,18 +28,29 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+        
+        <!-- Main screen -->
         <activity
             android:name="com.siddaganga.Homescreen"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/app_name" >
+        </activity>
+        
+        <!-- Splash screen -->
+        <activity
+            android:name="com.siddaganga.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <!-- Preferences -->        
         <activity android:name="com.siddaganga.PreferencesActivity" >
         </activity>
+    
     </application>
 
 </manifest>
