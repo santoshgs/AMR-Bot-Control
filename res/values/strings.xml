@@ -17,6 +17,8 @@
     <string name="pref_update_setting">Update Settings</string>
     <string name="pref_text_buffer_title">Input Buffer Size (In Chars)</string>
     <string name="pref_text_buffer_summary">Change the receive text buffer size</string>
+	<string name="author_website">www.santoshgs.com</string>
+	<string name="splashScreen">Splash Screen</string>
     
     <!-- control activity -->
     <string name="title_activity_control">Control HTBot</string>
