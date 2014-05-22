@@ -20,20 +20,26 @@
     
     <!-- control activity -->
     <string name="title_activity_control">Control HTBot</string>
-    <string name="buttonFwd">Forward</string>
-    <string name="buttonRight">Right</string>
-	<string name="buttonLeft">Left</string>
-	<string name="buttonRev">Reverse</string>
+    <string name="buttonFwd">&#8679;</string>
+    <string name="buttonRight">&#8680;</string>
+	<string name="buttonLeft">&#8678;</string>
+	<string name="buttonRev">&#8681;</string>
 	
 	<!-- main activity -->
-	<string name="btnDisconnect">Disconnect</string>
-    <string name="btnClearInput">Clear Input</string>
+	<string name="btnDisconnect">&#8622;</string>
+    <string name="btnClearInput">Clear</string>
 	<string name="checkScroll">Scroll</string>
 	<string name="checkRead">Read</string>
 	<string name="txtHint">Message shows up here&#8230;</string>
 	<string name="txtEditHint">Enter command</string>
-	<string name="btnClear">Clear</string>
-	<string name="btnSend">Send</string>
+	<string name="btnClear">&#10007;</string>
+	<string name="btnSend">&#8629;</string>
 	<string name="btnControl">Control</string>
+	<string name="btnStop">Stop</string>
+	
+	<!-- connect/homescreen activity -->
+	<string name="btnConnect">Connect</string>
+	<string name="btnSearchDesc">Search for paired devices</string>
+	<string name="txtPairedDevices">Paired devices appear below</string>
 		
 </resources>
