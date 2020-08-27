@@ -11,4 +11,3 @@ Then import the project into Eclipse using File->New->Project...->Android->Andro
 Contact
 =======
 If you have any questions, feel free to reach out to me at santosh@santoshgs.com
-P.S. - I'm lazy, as is evident with me editing this README instead of creating a new one, so I might take sometime to reply.
