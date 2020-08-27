@@ -1,4 +1,4 @@
-Bot Connect
+Bot Connect - (Migrated from its original home at https://bitbucket.org/santoshgs/bot-control/src/master/)
 ===========
 Bot Connect is an Android app compatible and tested on Android version 4.4.2. The app is based off of Plasty Grove's Blue Serial and is designed to allow for Serial communication and movement control over Bluetooth to devices such as Arduino. 
 
